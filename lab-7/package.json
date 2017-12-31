@@ -1,8 +1,8 @@
 {
-  "name": "lab8_moenika",
+  "name": "lab7_recipes",
   "version": "1.0.0",
-  "description": "CS546 Lab 8",
-  "main": "index.js",
+  "description": "Lab 7 Moenika",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node app.js"
@@ -10,7 +10,13 @@
   "author": "Moenika Chowdhury",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.18.2",
+    "exphbs": "^1.1.0",
     "express": "^4.16.2",
-    "express-handlebars": "^3.0.0"
+    "express-handlebars": "^3.0.0",
+    "handlebars": "^4.0.11",
+    "mongodb": "^2.2.33",
+    "static": "^2.0.0",
+    "uuid": "^3.1.0"
   }
 }

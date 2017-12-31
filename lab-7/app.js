@@ -1,14 +1,27 @@
-//app.js file
-//moenika chowdhury
-
 const express = require("express");
+const bodyParser = require("body-parser");
+const app = express();
 const static = express.static(__dirname + '/public');
-let app = express();
-let configRoutes = require("./routes");
+const configRoutes = require("./routes");
 const exphbs = require('express-handlebars');
+const Handlebars = require('handlebars');
+
+const handlebarsInstance = exphbs.create({
+    defaultLayout: 'main',
+    helpers: {
+        asJSON: (obj, spacing) => {
+            if (typeof spacing === "number")
+                return new Handlebars.SafeString(JSON.stringify(obj, null, spacing));
+        
+            return new Handlebars.SafeString(JSON.stringify(obj));
+        }
+    }
+});
 
 app.use("/public", static);
-app.engine('handlebars', exphbs({defaultLayout: 'main'}));
+app.use(bodyParser.json());
+
+app.engine('handlebars', handlebarsInstance.engine);
 app.set('view engine', 'handlebars');
 
 configRoutes(app);

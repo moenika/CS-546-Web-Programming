@@ -1,11 +1,14 @@
-//moenika chowdhury
+//index in routes
 
-const palindromeRoutes = require("./palindromes");
+const recipesRoutes = require("./recipes");
+const commentsRoutes = require("./comments");
+
 const constructorMethod = (app) => {
-    app.use("/", palindromeRoutes);
+    app.use("/recipes", recipesRoutes);
+    app.use("/comments", commentsRoutes);
 
     app.use("*", (req, res) => {
-        res.status(404).json({error: "Can't find route ~"});
+        res.status(404).json({error: "Route cannot be found"});
     });
 };
 
