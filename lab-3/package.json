@@ -1,0 +1,40 @@
+{
+  "name": "Lab3_MoenikaChowdhury_FINAL",
+  "version": "3.1.0",
+  "description": "Lab 3 for CS546",
+  "license": "MIT",
+  "repository": "sindresorhus/latest-version",
+  "author": {
+    "name": "Moenika Chowdhury",
+    "email": "mchowdh1@stevens.edu",
+    "url": "stevens.edu"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": " "
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "latest",
+    "version",
+    "npm",
+    "pkg",
+    "package",
+    "package.json",
+    "current",
+    "module"
+  ],
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "package-json": "^4.0.0"
+  },
+  "devDependencies": {
+    "ava": "*",
+    "semver-regex": "^1.0.0",
+    "xo": "*"
+  }
+}
