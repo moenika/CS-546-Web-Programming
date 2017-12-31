@@ -1,0 +1,56 @@
+.header{ 
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #20314B;
+    background-color: #B3B3B3;
+}
+
+
+li a {
+    float: left;
+    display: block;
+    color: #E4A3A3;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #E4A3A3;
+}
+
+li a.active {
+    color: white;
+    background-color: #20314B;
+}
+
+h3.subtext {
+    margin-bottom: 0;
+}
+
+h5.subtext {
+    margin-top: .5em;
+}
+
+h4 {
+    text-align: center;
+}
+
+h1.abouth {
+    text-align: center;
+    font-family: fantasy;
+}
+
+.textcontainer {
+    padding: 2% 2% 2% 2%;
+    border-radius: 10%;
+    background-color: #C1CED1;
+    overflow:hidden;
+}
+
+main {
+    margin-left: 10%;
+    margin-right: 10%;
+}
