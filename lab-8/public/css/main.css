@@ -1,0 +1,78 @@
+/* moenika chowdhury main style sheet*/
+
+.header {
+    margin: 5px;
+    padding: 5px;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.is-palindrome {
+    color: rgb(37, 37, 160);
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.not-palindrome {
+    color: rgb(160, 42, 42);
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+footer {
+    padding-top: 30px;
+    padding-bottom: 0px;
+    font-size: .6em;
+    font-family: 'arial', sans-serif;
+}
+
+li {
+    list-style: square;
+    text-align: left;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+h1 {
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+h4 {
+    font-size: 1em;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.textcontainer {
+    padding-top: 50px;
+    padding: 2%;
+    background-color: rgb(116, 174, 190);
+    text-align: center;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+body {
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+#listContainer {
+    border: 1px solid rgb(2, 4, 39);
+    margin-left: 35%;
+    margin-right: 35%;
+    text-align: center;
+    background-color: rgb(189, 198, 216);
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+#submitwrapper {
+    padding-bottom: 20px;
+    padding-top: 20px;
+    display: -webkit-inline-box;
+    align-content: center;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+button {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(226, 191, 147);
+    border-radius: 20px;
+    border: black;
+}
