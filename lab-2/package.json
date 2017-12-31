@@ -1,0 +1,12 @@
+{
+  "name": "cs-546-lab-2",
+  "version": "1.0.0",
+  "description": "CS546 Lab 2 Assignment",
+  "main": "printShape.js",
+  "scripts": {
+  	"start": "node printShape.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Moenika Chowdhury",
+  "license": "ISC"
+}
